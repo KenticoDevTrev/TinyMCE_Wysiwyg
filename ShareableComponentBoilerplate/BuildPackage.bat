@@ -1,1 +1,0 @@
-nuget pack ShareableComponentBoilerplate.csproj -Prop Configuration=Release

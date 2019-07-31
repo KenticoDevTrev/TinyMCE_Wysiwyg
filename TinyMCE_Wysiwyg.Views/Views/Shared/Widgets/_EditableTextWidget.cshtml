@@ -1,0 +1,15 @@
+﻿@using HBS.TinyMCE_Wysiwyg;
+@model ComponentViewModel<EditableTextWidgetProperties>
+
+@if (Context.Kentico().PageBuilder().EditMode)
+{
+    Html.RenderPartial("InlineEditors/_TinyMCEEditor", new TinyMCEEditorViewModel
+    {
+        PropertyName = nameof(Model.Properties.Html),
+        Html = Model.Properties.Html
+    });
+}
+else
+{
+    @Html.Raw(Model.Properties.Html);
+}
