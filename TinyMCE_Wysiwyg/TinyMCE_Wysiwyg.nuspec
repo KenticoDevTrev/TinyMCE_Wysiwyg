@@ -10,19 +10,14 @@
     <iconUrl>http://www.kentico.com/favicon.ico</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
-    <releaseNotes>Initial Release</releaseNotes>
+    <releaseNotes>Removed Sample Widget that was accidently in the solution, adjusted description.</releaseNotes>
     <copyright>Copyright 2019</copyright>
     <tags></tags>
+	<dependencies>
+		<dependency id="Kentico.Libraries" version="12.0.29" />
+	</dependencies>
   </metadata>
-  <dependencies>
-	<dependency id="Kentico.Libraries" version="12.0.29" />
-  </dependencies>
   <files>
-  <!-- Include the compiled views dll -->
-  <file src="bin\HBS.TinyMCE_Wysiwyg.Kentico.MVC.Views.dll" target = "lib\net461" />
-  
-  <!-- Sample of how to include this file in the Content of the Nuget, this would cause the SampleIncludeFile.txt to be copied to the SampleResource folder in the project you import the NuGet package in
-	<file src="SampleResource\SampleIncludedFile.txt" target = "Content\SampleResource" />
-	-->
+	<file src="bin\HBS.TinyMCE_Wysiwyg.Kentico.MVC.Views.dll" target = "lib\net461" />
   </files>
 </package>

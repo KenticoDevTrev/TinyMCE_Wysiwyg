@@ -575,6 +575,12 @@
   <ItemGroup>
     <Folder Include="obj\Debug\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TinyMCE_Wysiwyg\TinyMCE_Wysiwyg.csproj">
+      <Project>{5317880e-3857-4a45-8623-083e039a0d35}</Project>
+      <Name>TinyMCE_Wysiwyg</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

@@ -539,8 +539,6 @@
     <Compile Include="Models\Widgets\EditableTextWidgetProperties.cs" />
     <Compile Include="Models\Widgets\RichTextWidgetProperties.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TinyMCE_WysiwygWidget.cs" />
-    <Compile Include="TinyMCE_WysiwygWidgetModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
